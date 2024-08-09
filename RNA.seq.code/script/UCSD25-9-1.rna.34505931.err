@@ -1,0 +1,148 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/home/lina/lung.chipseq.project/data/chipseq.02022021/process/UCSD.025-9-RNA/25-9-RNA-1//temporary/
+Started analysis of 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 5% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 10% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 15% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 20% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 25% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 30% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 35% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 40% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 45% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 50% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 55% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 60% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 65% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 70% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 75% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 80% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 85% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 90% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Approx 95% complete for 25_9-re_RNA-1_S7_L001_R1_001.fastq.gz
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=1024m; support was removed in 8.0
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/home/lina/lung.chipseq.project/data/chipseq.02022021/process/UCSD.025-9-RNA/25-9-RNA-1//temporary/
+
+WARNING! The following chromosomes from reads are not found in annotations:
+chr17_ctg5_hap1
+chrUn_gl000220
+chrUn_gl000221
+chr6_cox_hap2
+chrUn_gl000219
+chr6_apd_hap1
+chrUn_gl000215
+chr19_gl000208_random
+chrUn_gl000216
+chrUn_gl000217
+chr19_gl000209_random
+chrUn_gl000218
+chrUn_gl000211
+chrUn_gl000212
+chr8_gl000196_random
+chrUn_gl000213
+chr4_ctg9_hap1
+chrUn_gl000214
+chrUn_gl000230
+chrUn_gl000231
+chrUn_gl000232
+chr1_gl000192_random
+chr4_gl000194_random
+chr17_gl000205_random
+chrUn_gl000226
+chrUn_gl000227
+chrUn_gl000228
+chr9_gl000201_random
+chrUn_gl000229
+chrUn_gl000222
+chrUn_gl000223
+chrUn_gl000224
+chrUn_gl000225
+chrUn_gl000240
+chrUn_gl000241
+chr6_dbb_hap3
+chrUn_gl000242
+chrUn_gl000243
+chr9_gl000198_random
+chr9_gl000199_random
+chr6_qbl_hap6
+chr6_mcf_hap5
+chrUn_gl000237
+chrUn_gl000238
+chrUn_gl000239
+chrUn_gl000233
+chrUn_gl000234
+chrUn_gl000235
+chrUn_gl000236
+chr7_gl000195_random
+chr4_gl000193_random
+chr1_gl000191_random
+chr21_gl000210_random
+chr6_ssto_hap7
+chr6_mann_hap4
+chr9_gl000200_random
+chr17_gl000204_random
+chr17_gl000206_random
+chrUn_gl000248
+chrUn_gl000249
+chr11_gl000202_random
+chrUn_gl000244
+chrUn_gl000245
+chrUn_gl000246
+chrUn_gl000247
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v1.6.0
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S /home/lina/lung.chipseq.project/data/chips ... ||
+||                                                                            ||
+||             Output file : /home/lina/lung.chipseq.project/data/chipseq ... ||
+||                 Summary : /home/lina/lung.chipseq.project/data/chipseq ... ||
+||              Annotation : /home/lina/star.reference/hg19.gtf.gff/genco ... ||
+||      Dir for temp files : /home/lina/lung.chipseq.project/data/chipseq ... ||
+||                                                                            ||
+||                 Threads : 10                                               ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : counted                                          ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /home/lina/star.reference/hg19.gtf.gff/gencode.v1 ... ||
+||    Features : 1196293                                                      ||
+||    Meta-features : 55765                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file /home/lina/lung.chipseq.project/data/chipseq.02022021 ... ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 25045847                                                  ||
+||    Successfully assigned reads : 10121457 (40.4%)                          ||
+||    Running time : 0.68 minutes                                             ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/home/lina/lung.chipseq  ||
+|| .project/data/chipseq.02022021/process/UCSD.025-9-RNA/25-9-RNA-1//count/2  ||
+|| 5-9-RNA-1.outputfile.summary"                                              ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+

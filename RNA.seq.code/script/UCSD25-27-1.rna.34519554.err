@@ -1,0 +1,331 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/home/lina/lung.chipseq.project/data/chipseq.03252021/process/UCSD.025-27-RNA/25_27-RNA-1//temporary/
+Started analysis of 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 5% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 10% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 15% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 20% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 25% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 30% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 35% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 40% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 45% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 50% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 55% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 60% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 65% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 70% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 75% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 80% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 85% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 90% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Approx 95% complete for 25_27_RNA-1_S49_L005_R1_001.fastq.gz
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /home/lina/lung.chipseq.project/data/chipseq.03252021/igm-storage2.ucsd.edu/210320_K00180_1016_AHKHHLBBXY_SR75_Combo/25_27_RNA-1_S49_L005_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	3767	CTGTCTCTTATA	1000000	0.38
+Illumina	2	AGATCGGAAGAGC	1000000	0.00
+smallRNA	0	TGGAATTCTCGG	1000000	0.00
+Using Nextera adapter for trimming (count: 3767). Second best hit was Illumina (count: 2)
+
+Writing report to '/home/lina/lung.chipseq.project/data/chipseq.03252021/process/UCSD.025-27-RNA/25_27-RNA-1//fastqc_trim_results/25_27_RNA-1_S49_L005_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /home/lina/lung.chipseq.project/data/chipseq.03252021/igm-storage2.ucsd.edu/210320_K00180_1016_AHKHHLBBXY_SR75_Combo/25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.5.0
+Cutadapt version: 1.18
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 5 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Writing final adapter and quality trimmed output to 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff 20) and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /home/lina/lung.chipseq.project/data/chipseq.03252021/igm-storage2.ucsd.edu/210320_K00180_1016_AHKHHLBBXY_SR75_Combo/25_27_RNA-1_S49_L005_R1_001.fastq.gz <<< 
+10000000 sequences processed
+This is cutadapt 1.18 with Python 3.7.7
+Command line parameters: -f fastq -e 0.1 -q 20 -O 5 -a CTGTCTCTTATA /home/lina/lung.chipseq.project/data/chipseq.03252021/igm-storage2.ucsd.edu/210320_K00180_1016_AHKHHLBBXY_SR75_Combo/25_27_RNA-1_S49_L005_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 513.69 s (32 us/read; 1.90 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              16,270,030
+Reads with adapters:                   156,888 (1.0%)
+Reads written (passing filters):    16,270,030 (100.0%)
+
+Total basepairs processed: 1,236,522,280 bp
+Quality-trimmed:              12,523,024 bp (1.0%)
+Total written (filtered):  1,221,486,590 bp (98.8%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 156888 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 9.6%
+  C: 50.6%
+  G: 24.2%
+  T: 15.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	37563	15888.7	0	37563
+6	3094	3972.2	0	3094
+7	14847	993.0	0	14847
+8	2188	248.3	0	2188
+9	6276	62.1	0	6013 263
+10	8423	15.5	1	7179 1244
+11	3148	3.9	1	2654 494
+12	5468	1.0	1	4909 559
+13	6755	1.0	1	5911 844
+14	2607	1.0	1	2405 202
+15	6673	1.0	1	6104 569
+16	4953	1.0	1	4539 414
+17	2123	1.0	1	1894 229
+18	7357	1.0	1	6849 508
+19	1081	1.0	1	971 110
+20	3576	1.0	1	3316 260
+21	4763	1.0	1	4313 450
+22	2538	1.0	1	2035 503
+23	2888	1.0	1	2650 238
+24	1623	1.0	1	1495 128
+25	2077	1.0	1	1929 148
+26	2636	1.0	1	2231 405
+27	3926	1.0	1	3679 247
+28	736	1.0	1	623 113
+29	2922	1.0	1	2765 157
+30	638	1.0	1	544 94
+31	1436	1.0	1	1312 124
+32	507	1.0	1	431 76
+33	1199	1.0	1	840 359
+34	597	1.0	1	533 64
+35	751	1.0	1	636 115
+36	493	1.0	1	405 88
+37	344	1.0	1	205 139
+38	361	1.0	1	197 164
+39	326	1.0	1	252 74
+40	273	1.0	1	154 119
+41	78	1.0	1	6 72
+42	307	1.0	1	25 282
+43	274	1.0	1	21 253
+44	111	1.0	1	4 107
+45	174	1.0	1	13 161
+46	48	1.0	1	0 48
+47	67	1.0	1	8 59
+48	346	1.0	1	5 341
+49	104	1.0	1	4 100
+50	1922	1.0	1	9 1913
+51	155	1.0	1	9 146
+52	81	1.0	1	10 71
+53	584	1.0	1	9 575
+54	73	1.0	1	8 65
+55	452	1.0	1	9 443
+56	110	1.0	1	2 108
+57	238	1.0	1	13 225
+58	190	1.0	1	0 190
+59	1226	1.0	1	2 1224
+60	273	1.0	1	8 265
+61	244	1.0	1	5 239
+62	293	1.0	1	4 289
+63	330	1.0	1	2 328
+64	46	1.0	1	0 46
+65	56	1.0	1	2 54
+66	153	1.0	1	10 143
+67	75	1.0	1	9 66
+68	460	1.0	1	4 456
+69	49	1.0	1	8 41
+70	93	1.0	1	2 91
+71	43	1.0	1	3 40
+72	441	1.0	1	56 385
+73	373	1.0	1	7 366
+74	66	1.0	1	1 65
+75	166	1.0	1	1 165
+76	21	1.0	1	3 18
+
+
+RUN STATISTICS FOR INPUT FILE: /home/lina/lung.chipseq.project/data/chipseq.03252021/igm-storage2.ucsd.edu/210320_K00180_1016_AHKHHLBBXY_SR75_Combo/25_27_RNA-1_S49_L005_R1_001.fastq.gz
+=============================================
+16270030 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	5181 (0.0%)
+
+
+  >>> Now running FastQC on the data <<<
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/home/lina/lung.chipseq.project/data/chipseq.03252021/process/UCSD.025-27-RNA/25_27-RNA-1//temporary/
+Started analysis of 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 5% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 10% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 15% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 20% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 25% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 30% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 35% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 40% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 45% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 50% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 55% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 60% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 65% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 70% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 75% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 80% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 85% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 90% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Approx 95% complete for 25_27_RNA-1_S49_L005_R1_001_trimmed.fq.gz
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=1024m; support was removed in 8.0
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/home/lina/lung.chipseq.project/data/chipseq.03252021/process/UCSD.025-27-RNA/25_27-RNA-1//temporary/
+
+WARNING! The following chromosomes from reads are not found in annotations:
+chr17_ctg5_hap1
+chrUn_gl000220
+chrUn_gl000221
+chr6_cox_hap2
+chrUn_gl000219
+chr6_apd_hap1
+chrUn_gl000215
+chr19_gl000208_random
+chrUn_gl000216
+chrUn_gl000217
+chr19_gl000209_random
+chrUn_gl000218
+chrUn_gl000211
+chrUn_gl000212
+chr8_gl000196_random
+chrUn_gl000213
+chr4_ctg9_hap1
+chrUn_gl000214
+chrUn_gl000230
+chrUn_gl000231
+chr1_gl000192_random
+chr4_gl000194_random
+chr17_gl000205_random
+chrUn_gl000226
+chrUn_gl000227
+chrUn_gl000228
+chr9_gl000201_random
+chrUn_gl000229
+chrUn_gl000222
+chrUn_gl000223
+chrUn_gl000224
+chrUn_gl000225
+chrUn_gl000240
+chrUn_gl000241
+chr6_dbb_hap3
+chrUn_gl000242
+chrUn_gl000243
+chr9_gl000198_random
+chr9_gl000199_random
+chr6_qbl_hap6
+chr6_mcf_hap5
+chrUn_gl000237
+chrUn_gl000238
+chrUn_gl000239
+chrUn_gl000233
+chrUn_gl000234
+chrUn_gl000235
+chr7_gl000195_random
+chr4_gl000193_random
+chr1_gl000191_random
+chr21_gl000210_random
+chr6_ssto_hap7
+chr6_mann_hap4
+chr9_gl000200_random
+chr17_gl000206_random
+chrUn_gl000249
+chr11_gl000202_random
+chrUn_gl000244
+chrUn_gl000245
+chrUn_gl000246
+chrUn_gl000247
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v1.6.0
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S /home/lina/lung.chipseq.project/data/chips ... ||
+||                                                                            ||
+||             Output file : /home/lina/lung.chipseq.project/data/chipseq ... ||
+||                 Summary : /home/lina/lung.chipseq.project/data/chipseq ... ||
+||              Annotation : /home/lina/star.reference/hg19.gtf.gff/genco ... ||
+||      Dir for temp files : /home/lina/lung.chipseq.project/data/chipseq ... ||
+||                                                                            ||
+||                 Threads : 10                                               ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : counted                                          ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /home/lina/star.reference/hg19.gtf.gff/gencode.v1 ... ||
+||    Features : 1196293                                                      ||
+||    Meta-features : 55765                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file /home/lina/lung.chipseq.project/data/chipseq.03252021 ... ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 23282625                                                  ||
+||    Successfully assigned reads : 10265858 (44.1%)                          ||
+||    Running time : 1.06 minutes                                             ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/home/lina/lung.chipseq  ||
+|| .project/data/chipseq.03252021/process/UCSD.025-27-RNA/25_27-RNA-1//count  ||
+|| /25_27-RNA-1.outputfile.summary"                                           ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+

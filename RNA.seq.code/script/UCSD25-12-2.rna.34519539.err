@@ -1,0 +1,62 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/home/lina/lung.chipseq.project/data/chipseq.03252021/process/UCSD.025-12-RNA/25_12-RNA-2//temporary/
+Started analysis of 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 5% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 10% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 15% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 20% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 25% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 30% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 35% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 40% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 45% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 50% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 55% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 60% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 65% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 70% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 75% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 80% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 85% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 90% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+Approx 95% complete for 25_12_RNA-2_S30_L004_R1_001.fastq.gz
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Path to Cutadapt set as: 'cutadapt' (default)
+Can't exec "cutadapt": No such file or directory at /home/lina/programfile/trimgalore/TrimGalore-0.5.0/trim_galore line 278.
+Failed to execute Cutadapt porperly. Please install Cutadapt first and make sure it is in the PATH, or specify the path to the Cutadapt executable using --path_to_cutadapt /path/to/cutadapt
+
+mv: cannot stat '/home/lina/lung.chipseq.project/data/chipseq.03252021/process/UCSD.025-12-RNA/25_12-RNA-2//fastqc_trim_results/*_trimmed.fq.gz': No such file or directory
+gzip: /home/lina/lung.chipseq.project/data/chipseq.03252021/process/UCSD.025-12-RNA/25_12-RNA-2//fastqc_trim_results/rnaseq.1.fq.gz: No such file or directory
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=1024m; support was removed in 8.0
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/home/lina/lung.chipseq.project/data/chipseq.03252021/process/UCSD.025-12-RNA/25_12-RNA-2//temporary/
+Failed to run rnaseq
+java.lang.RuntimeException: BAM file is empty or no read alignments are located in exonic regions.
+	at org.bioinfo.ngs.qc.qualimap.process.ComputeCountsTask.run(ComputeCountsTask.java:553)
+	at org.bioinfo.ngs.qc.qualimap.process.RNASeqQCAnalysis.run(RNASeqQCAnalysis.java:68)
+	at org.bioinfo.ngs.qc.qualimap.main.RnaSeqQcTool.execute(RnaSeqQcTool.java:188)
+	at org.bioinfo.ngs.qc.qualimap.main.NgsSmartTool.run(NgsSmartTool.java:190)
+	at org.bioinfo.ngs.qc.qualimap.main.NgsSmartMain.main(NgsSmartMain.java:111)
+
+
+ERROR: invalid parameter: '/home/lina/lung.chipseq.project/data/chipseq.03252021/process/UCSD.025-12-RNA/25_12-RNA-2//mapping/STARoutputAligned.sortedByCoord.out.bam'
+
+Traceback (most recent call last):
+  File "/home/lina/lung.chipseq.project/RNA.seq.code/get.rnaseq.count.file.py", line 15, in <module>
+    getcount(infile)
+  File "/home/lina/lung.chipseq.project/RNA.seq.code/get.rnaseq.count.file.py", line 4, in getcount
+    f=open(infile, "r")
+IOError: [Errno 2] No such file or directory: '/home/lina/lung.chipseq.project/data/chipseq.03252021/process/UCSD.025-12-RNA/25_12-RNA-2//count/25_12-RNA-2.outputfile'
